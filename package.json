@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",  
   "scripts": {
-    "test": "mocha --require @babel/register"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,8 @@
     "@babel/core": "^7.25.9",
     "@babel/preset-env": "^7.25.9",
     "@babel/register": "^7.25.9",
-    "chai": "^5.1.1",
-    "mocha": "^10.7.3"
+    "chai": "^5.1.2",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
   }
 }
