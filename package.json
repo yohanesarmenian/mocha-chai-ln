@@ -1,0 +1,19 @@
+{
+  "name": "mocha-chai-ln",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "@babel/register": "^7.25.9",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  }
+}
