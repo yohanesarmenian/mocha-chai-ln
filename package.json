@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",  
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
@@ -17,5 +17,8 @@
     "chai": "^5.1.2",
     "mocha": "^10.7.3",
     "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
   }
 }
