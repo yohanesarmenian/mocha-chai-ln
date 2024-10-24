@@ -10,4 +10,15 @@ describe("Users Feature", () => {
         // ASSERTION
         expect(response.status).to.equal(200);
     });
+
+    it("Sucess GetOne User", async () => {
+        const userId = 2;
+        const response = await request(app)
+            .get(`/api/users/${userId}`)
+
+        //ASSERTION
+        expect(response.status).to.equal(200)
+        expect(response.body).to.have.property("data");
+        expect(response.body.data).to.have.property("id", userId);
+    });
 });
